@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="job-aggregator-db" />
+        <module name="job-aggregator-backend" />
+        <module name="job-aggregator-frontend" />
+        <module name="job-aggregator-commons" />
+        <module name="job-aggregator-common-models" />
+        <module name="job-aggregator-liquibase" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="job-aggregator" target="1.8" />
+      <module name="job-aggregator-backend" target="1.8" />
+      <module name="job-aggregator-common-models" target="1.8" />
+      <module name="job-aggregator-commons" target="1.8" />
+      <module name="job-aggregator-db" target="1.8" />
+      <module name="job-aggregator-frontend" target="1.8" />
+      <module name="job-aggregator-liquibase" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="job-aggregator-backend" options="-parameters" />
+      <module name="job-aggregator-common-models" options="-parameters" />
+      <module name="job-aggregator-commons" options="-parameters" />
+      <module name="job-aggregator-db" options="-parameters" />
+      <module name="job-aggregator-frontend" options="-parameters" />
+      <module name="job-aggregator-liquibase" options="-parameters" />
+    </option>
+  </component>
+</project>
