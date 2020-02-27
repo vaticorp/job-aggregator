@@ -17,6 +17,7 @@
     <properties>
         <springfox.swagger.ver>2.9.2</springfox.swagger.ver>
         <lombok.ver>1.18.12</lombok.ver>
+        <zalando.ver>0.22.0</zalando.ver>
     </properties>
 
     <modules>
@@ -26,5 +27,6 @@
         <module>job-aggregator-commons</module>
         <module>job-aggregator-frontend</module>
         <module>job-aggregator-db</module>
+        <!--<module>job-aggregator-common-dao</module>-->
     </modules>
 </project>

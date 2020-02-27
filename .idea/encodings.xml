@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/job-aggregator-backend" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/job-aggregator-common-dao" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/job-aggregator-common-models" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/job-aggregator-commons" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/job-aggregator-db" charset="UTF-8" />

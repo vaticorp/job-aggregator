@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="job-aggregator-common-dao" />
         <module name="job-aggregator-db" />
         <module name="job-aggregator-backend" />
         <module name="job-aggregator-frontend" />
@@ -17,6 +18,7 @@
     <bytecodeTargetLevel>
       <module name="job-aggregator" target="1.8" />
       <module name="job-aggregator-backend" target="1.8" />
+      <module name="job-aggregator-common-dao" target="1.8" />
       <module name="job-aggregator-common-models" target="1.8" />
       <module name="job-aggregator-commons" target="1.8" />
       <module name="job-aggregator-db" target="1.8" />
@@ -27,6 +29,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="job-aggregator-backend" options="-parameters" />
+      <module name="job-aggregator-common-dao" options="-parameters" />
       <module name="job-aggregator-common-models" options="-parameters" />
       <module name="job-aggregator-commons" options="-parameters" />
       <module name="job-aggregator-db" options="-parameters" />

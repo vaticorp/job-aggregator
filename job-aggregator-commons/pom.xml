@@ -11,5 +11,21 @@
 
     <artifactId>job-aggregator-commons</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>org.zalando</groupId>
+            <artifactId>problem</artifactId>
+            <version>${zalando.ver}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.zalando</groupId>
+            <artifactId>problem-spring-web</artifactId>
+            <version>${zalando.ver}</version>
+        </dependency>
+        <dependency>
+            <groupId>job.aggregator</groupId>
+            <artifactId>job-aggregator-commom-models</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
 </project>
