@@ -2,8 +2,15 @@ server:
   port: 8080
 
 spring:
+  jackson:
+    default-property-inclusion: non_null
   datasource:
     url: test_url
     username: login
     password: password
     driver-class-name: oracle.jdbc.OracleDriver
+
+  jpa:
+    database-platform: org.hibernate.dialect.Oracle10gDialect
+#    hibernate:
+#      ddl-auto: validate

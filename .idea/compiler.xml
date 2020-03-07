@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="job-aggregator-common-dao" />
         <module name="job-aggregator-db" />
         <module name="job-aggregator-backend" />
         <module name="job-aggregator-frontend" />

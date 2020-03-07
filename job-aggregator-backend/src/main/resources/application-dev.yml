@@ -2,10 +2,12 @@ server:
   port: 8080
 
 spring:
+  jackson:
+    default-property-inclusion: non_null
   datasource:
-    url: test_url
-    username: login
-    password: password
+    url: localhost:1521/XEPDB1
+    username: JOB_DEV
+    password: JOB_DEV
     driver-class-name: oracle.jdbc.OracleDriver
 
   jpa:

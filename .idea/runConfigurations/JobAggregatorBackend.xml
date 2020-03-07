@@ -2,6 +2,7 @@
   <configuration default="false" name="JobAggregatorBackend" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
     <module name="job-aggregator-backend" />
     <option name="SPRING_BOOT_MAIN_CLASS" value="job.aggregator.backend.JobAggregatorApplication" />
+    <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=dev" />
     <option name="ALTERNATIVE_JRE_PATH" />
     <method v="2">
       <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean install" />

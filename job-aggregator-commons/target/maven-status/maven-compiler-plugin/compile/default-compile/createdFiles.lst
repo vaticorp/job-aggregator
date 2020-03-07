@@ -1,0 +1,7 @@
+job\aggregator\commons\services\MessageService.class
+job\aggregator\commons\exceptions\TechnicalException.class
+job\aggregator\commons\utils\ProblemCodes.class
+job\aggregator\commons\utils\PropertyHolder.class
+job\aggregator\commons\exceptions\SingleCodeException.class
+job\aggregator\commons\utils\MessageCodes.class
+job\aggregator\commons\services\ProblemService.class

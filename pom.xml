@@ -18,15 +18,15 @@
         <springfox.swagger.ver>2.9.2</springfox.swagger.ver>
         <lombok.ver>1.18.12</lombok.ver>
         <zalando.ver>0.22.0</zalando.ver>
+        <spring.ver.core>3.0.4.RELEASE</spring.ver.core>
     </properties>
 
     <modules>
-        <module>job-aggregator-backend</module>
         <module>job-aggregator-liquibase</module>
         <module>job-aggregator-common-models</module>
         <module>job-aggregator-commons</module>
         <module>job-aggregator-frontend</module>
         <module>job-aggregator-db</module>
-        <!--<module>job-aggregator-common-dao</module>-->
+        <module>job-aggregator-backend</module>
     </modules>
 </project>

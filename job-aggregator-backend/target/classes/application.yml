@@ -6,8 +6,10 @@ server:
 
 spring:
   datasource:
-    url: test_url
-    username: login
+    url: localhost:1521/XEPDB1
+    username: SYSTEM
     password: password
     driver-class-name: oracle.jdbc.OracleDriver
 
+# jdbc:oracle:thin:@porasbbselscan.sbb.ch:1551/zps_entw
+# localhost:5500/em

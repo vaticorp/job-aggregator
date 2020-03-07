@@ -1,0 +1,5 @@
+job\aggregator\common\models\so\MessageCategory.class
+job\aggregator\common\models\enums\Sex.class
+job\aggregator\common\models\so\Message.class
+job\aggregator\common\models\to\UserTo.class
+job\aggregator\common\models\enums\VacancyStatus.class

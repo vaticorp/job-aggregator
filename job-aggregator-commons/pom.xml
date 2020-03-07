@@ -8,7 +8,6 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>job-aggregator-commons</artifactId>
 
     <dependencies>
@@ -26,6 +25,11 @@
             <groupId>job.aggregator</groupId>
             <artifactId>job-aggregator-commom-models</artifactId>
             <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.ws</groupId>
+            <artifactId>spring-ws-core</artifactId>
+            <version>${spring.ver.core}</version>
         </dependency>
     </dependencies>
 </project>

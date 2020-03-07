@@ -3,7 +3,12 @@ server:
 
 spring:
   datasource:
-    url: test_url
-    username: login
-    password: password
+    url: localhost:1521/XEPDB1
+    username: JOB_DEV
+    password: JOB_DEV
     driver-class-name: oracle.jdbc.OracleDriver
+
+  jpa:
+    database-platform: org.hibernate.dialect.Oracle10gDialect
+#    hibernate:
+#      ddl-auto: validate

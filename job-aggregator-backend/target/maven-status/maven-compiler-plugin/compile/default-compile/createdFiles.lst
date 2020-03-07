@@ -1,3 +1,6 @@
-job\aggregator\backend\config\SwaggerConfig.class
 job\aggregator\backend\JobAggregatorApplication.class
+job\aggregator\backend\config\ResourcesConfig.class
+job\aggregator\backend\config\SwaggerConfig.class
+job\aggregator\backend\config\ProblemResponseEntityExceptionHandler.class
+job\aggregator\backend\config\ComponentScanConfig.class
 job\aggregator\backend\rest\ping\PingController.class

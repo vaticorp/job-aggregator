@@ -1,0 +1,12 @@
+job\aggregator\db\po\OrganizationPo.class
+job\aggregator\db\repository\OrganizationDetailRepository.class
+job\aggregator\db\po\AbstractPo.class
+job\aggregator\db\po\VacancyPo.class
+job\aggregator\db\po\AddressPo.class
+job\aggregator\db\repository\UserRepository.class
+job\aggregator\db\po\OrganizationDetailPo.class
+job\aggregator\db\po\UserPo.class
+job\aggregator\db\repository\AddressRepository.class
+job\aggregator\db\repository\OrganizationRepository.class
+job\aggregator\db\repository\AbstractRepository.class
+job\aggregator\db\repository\VacancyRepository.class
